@@ -20,25 +20,26 @@ a em {
 span.especial {
     color: violet;
 }
-thead, tfood, tbody, tr, td, th {
+table thead, tfood, tbody, tr, td, th {
     border: 1px solid black;
 }
 table {
     border-collapse: collapse;
+    color: green;
 }
 table caption {
     color: blue;
 }
-table thead th {
+table thead tr th {
     color: orange;
 }
-table tfoot th {
+table tfoot tr th {
     color: red;
 }
-table tbody th.special {
+table tbody tr th.especial {
     color: orange;
 }
-table tbody th {
+table tbody tr th {
     color: red;
 }
 
