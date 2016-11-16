@@ -1,0 +1,44 @@
+
+h1#titulo {
+    color: teal;
+}
+strong {
+    color: red;
+}
+span.destacado {
+    color: orange;
+}
+h2#subtitulo {
+    color: blue;
+}
+a {
+    color: red;
+}
+a em {
+    color: blue;
+}
+span.especial {
+    color: violet;
+}
+thead, tfood, tbody, tr, td, th {
+    border: 1px solid black;
+}
+table {
+    border-collapse: collapse;
+}
+table caption {
+    color: blue;
+}
+table thead th {
+    color: orange;
+}
+table tfoot th {
+    color: red;
+}
+table tbody th.special {
+    color: orange;
+}
+table tbody th {
+    color: red;
+}
+
