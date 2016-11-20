@@ -11,10 +11,13 @@ span.destacado {
 h2#subtitulo {
     color: blue;
 }
-a {
+p a {
     color: red;
 }
-a em {
+p a:nth-last-child(1) {
+    color: green;
+}
+p a em {
     color: blue;
 }
 span.especial {
@@ -47,4 +50,7 @@ table tbody tr td strong {
 }
 div#adicional {
     color: olive;
+}
+span#especial {
+    color: violet;
 }

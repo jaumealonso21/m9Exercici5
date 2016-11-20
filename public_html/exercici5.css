@@ -69,4 +69,21 @@ div.articulo img {
 }
 div#publicidad {
     margin-top: 1em;
+    border: 1px dotted #CC6600;
+}
+#cabecera, #menu, #lateral, #contenido, #contenido #principal, #contenido #secundario, #pie {
+  border: transparent;
+}
+div#menu {
+    border-bottom: 1px solid #004C99;
+}
+div#noticias {
+    border: 1px solid #C5C5C5;
+}
+div#secundario { 
+    border: 1px solid #CC6600!important; /*Per forçar que sorti*/
+}
+div#pie {
+    border-top: 1px solid #C5C5C5; 
+    border-bottom: 1px solid #C5C5C5;
 }
