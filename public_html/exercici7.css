@@ -1,0 +1,12 @@
+
+body { font-size: 20px; }
+
+p.a {
+font-size: .8em;
+margin-left: .5em;
+}
+
+p.b {
+font-size: 80%;
+margin-left: 50%; 
+}

@@ -1,0 +1,30 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: teal;
+}
+div#css {
+    font-size: 300px;
+    font-family: verdana;
+    font-weight: bold;
+    color: gray;
+    position: absolute;
+    margin: 0% 25%;
+}
+div#libertad {
+    position: absolute;
+    top: 350px;
+    left: 60px;
+    background-color: black;
+    color: white;
+}
+div#insertar {
+    position: absolute;
+    top: 500px;
+    left: 500px;
+    color: white;
+}
+div#imagen {
+    
+}
+

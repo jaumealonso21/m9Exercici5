@@ -1,0 +1,13 @@
+BODY {
+    font-size: 12px;
+    margin: 20px;
+    margin-top: 50px;
+    padding: 0px;
+}
+H1 {
+    font-size: 1.5em;
+    margin: 2em 20px 1.5em 10px;
+}
+P {
+    margin: 1em 60px; 
+}
