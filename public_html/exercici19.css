@@ -44,6 +44,11 @@
   }
   input, select {
     display: block;
+    
+  }
+  label {
+      
+      
   }
   input:focus {
     border-color: #E6B700;
@@ -55,19 +60,19 @@
     display: none;
   }
   #nombre {
-    width: 40%;
+    width: 70%;
   }
   #apellido1, #apellido2 {
-    width: 60%;
+    width: 90%;
   }
   #direccion {
-    width: 60%;
+    width: 220px;
   }
   #codigopostal {
-    width: 10%;
+    width: 25px;
   }
   #municipio {
-    width: 40%;
+    width: 120px;
   }
   #alta {
     float: right;
