@@ -1,0 +1,156 @@
+/* === IMPORTANTE ===================================================
+   No modificar estos estilos, ya que son imprescindibles para
+   que la página se vea correctamente.
+   ================================================================== */
+
+/*-- Básico ----------------------------------------------------------*/
+ul, ul li { margin: 0; padding: 0; list-style: none; }
+h1, h2, h3, p, form { margin: 0; padding: 0; }
+.clear { clear: both; }
+img { border: none; }
+
+/*-- Layout ----------------------------------------------------------*/
+#contenedor {
+  width: 90%;
+  max-width: 900px;
+  width: expression(document.body.clientWidth > 901? "900px": "auto");
+  margin: 0 auto;
+}
+
+#cabecera, #menu, #lateral, #contenido, #contenido #principal, #contenido #secundario, #pie {
+  border: 2px solid #777;
+}
+
+#cabecera { clear: both; }
+#menu { clear: both; }
+#lateral { float: left; width: 20%; }
+#contenido { float: right; width: 77%; }
+#contenido #principal { float: left; width: 73%; }
+#contenido #secundario { float: right; width: 20%; }
+#pie { clear: both; }
+
+/*-- Cabecera --------------------------------------------------------*/
+#cabecera #logo { float: left; }
+#cabecera #buscador { float: right; }
+
+/*-- Menu ------------------------------------------------------------*/
+#menu ul#menu_principal li { display: inline; float: left; }
+
+/*-- Sección Principal -----------------------------------------------*/
+#contenido #principal .articulo img { width: 100px; float: left; }
+
+/*-- Pie de página ---------------------------------------------------*/
+#pie .enlaces   { float: left; }
+#pie .copyright { float: right; }
+
+/* === IMPORTANTE ===================================================
+   A partir de aquí, se pueden añadir todos los estilos propios que 
+   sean necesarios.
+   ================================================================== */
+div#cabecera {
+    padding: 1em;
+}
+div#cabecera h1 {
+    background:  url(imagenes/logo.gif) no-repeat 0 0;
+    min-height: 53px;
+}
+div#cabecera h1 span {
+    color: transparent;
+}
+div#menu {
+    padding: 0.5em;
+    margin-bottom: 0.5em;
+}
+div#noticias, div#publicidad, div#principal, div#secundario {
+    padding: 0.5em;
+}
+div#pie {
+    padding: 0.5em 0em;
+    margin-top: 1em;
+}
+div.articulo {
+    margin-bottom: 1em;
+}
+div.articulo img {
+    margin: 0.5em;
+}
+div#publicidad {
+    margin-top: 1em;
+    border: 1px dotted #CC6600;
+    background-color: #FFF6CD;
+}
+#cabecera, #menu, #lateral, #contenido, #contenido #principal, #contenido #secundario, #pie {
+    border: transparent;
+}
+div#menu {
+    border-bottom: 1px solid #004C99;
+    background-image: url(imagenes/fondo_menu.gif);
+}
+div#noticias {
+    border: 1px solid #C5C5C5;
+    background-color: #F8F8F8;
+}
+div#secundario { 
+    border: 1px solid #CC6600!important; /*Per forçar que sorti*/
+}
+div#secundario h2 {
+    background-color: #DB905C;
+    padding: 0.2em;
+}
+div#pie {
+    border-top: 1px solid #C5C5C5; 
+    border-bottom: 1px solid #C5C5C5;
+    background-color: #F8F8F8;
+}
+body {
+    color: black;
+    font-family: Arial;
+    font-size: 0.9em;
+    line-height: 1.4em;
+}
+.articulo h2 {
+    color: #CC6600;
+    font-size: 1.6em;
+    line-height: 1.2em;
+    margin-bottom: 0.3em;
+}
+#menu {
+    margin-right: 1em;
+}
+#menu:link {
+    color: white;
+    font-size: 1.3em;
+}
+#lateral {
+    font-size:0.9em;
+}
+.fecha {
+    color: #999;
+    display: block;
+}
+#noticias h3{
+    color: #003366;
+}
+#publicidad {
+    color: #555;
+}
+#publicidad h3 a:link, #publicidad p a:link, #publicidad h3 a:visited, #publicidad p a:visited {
+    color: #CC6600;
+}
+.articulo p a:link, .articulo p a:visited {
+    color: #CC6600;
+}
+.articulo p {
+    margin-top: 0.3em;
+    margin-bottom: 0.3em;
+}
+#secundario h2 {
+    color: white;
+}
+#menu_principal li a:link, #menu_principal li a:visited {
+    color: white;
+    margin: 0 0.2em;
+}
+#menu {
+    width: 98%;
+}

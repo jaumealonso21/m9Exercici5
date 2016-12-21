@@ -1,0 +1,76 @@
+
+  form {
+    margin: 0;
+    padding: 0;
+    border-bottom: 2px solid grey;
+    max-width: 800px;
+  }
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0 0 0 .4em;
+  }
+  ul li {
+    margin: 0;
+    padding: 0;
+  }
+  ul li:hover {
+    background-color: #FF9;
+  }
+  ul li:hover p.ayuda {
+    display: inline;
+  }
+  ul li.quad {
+    width: 45%;
+    float: left;
+  }
+  ul li.peu {
+    clear: both;
+    width: 100%;
+  }
+  div {
+      
+  }
+  span {
+      
+  }
+  .titulo {
+    font-weight: bold;
+    font-size: 1em;
+  }
+  .requerido {
+    color: red;
+    font-size: 1em;
+  }
+  input, select {
+    display: block;
+  }
+  input:focus {
+    border-color: #E6B700;
+  }
+  label {
+    font-size: 0.7em;
+  }
+  .ayuda {
+    display: none;
+  }
+  #nombre {
+    width: 40%;
+  }
+  #apellido1, #apellido2 {
+    width: 60%;
+  }
+  #direccion {
+    width: 60%;
+  }
+  #codigopostal {
+    width: 10%;
+  }
+  #municipio {
+    width: 40%;
+  }
+  #alta {
+    float: right;
+    margin: 20px 0 0 0;
+  }
+

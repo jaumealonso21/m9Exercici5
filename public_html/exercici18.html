@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Exercici 18</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style><!--
+      .normal {
+         width: 500px;
+         border: 1px solid #333;
+         border-collapse: collapse;
+         font-family: "Arial";
+        }
+        
+        .normal th, .normal td {
+         border: 1px solid #333;
+         text-align: center;
+        }
+        .normal th[scope="col"] {
+          background: url(imagenes/fondo.gif) repeat;
+        }
+        .normal th[scope="row"] {
+          text-align: left;
+          background-color: #E6F3FF;
+          padding: 0 0 0 15px;
+        }
+        .euro {
+          background: url(imagenes/icono_categoria.gif) no-repeat left;
+        }
+        .dolar {
+          background: url(imagenes/icono_comentarios.gif) no-repeat left;
+        }
+        .libra {
+          background: url(imagenes/icono_elemento.gif) no-repeat left;
+        }
+        .yen {
+          background: url(imagenes/icono_autor.gif) no-repeat left;
+        }
+        .normal tr:nth-child(even) { /* odd-impars ---- even-pars */ 
+          background-color: #FFFFCC;
+        }
+        .normal tr:hover {
+          background-color: yellow;
+        }
+      --></style>
+  </head>
+  <body>
+    <table class="normal" summary="Tabla genérica">
+      <tr>
+        <th scope="col">Cambio</th>
+        <th scope="col">Compra</th>
+        <th scope="col">Venta</th>
+        <th scope="col">Máximo</th>
+        <th scope="col">Mínimo</th>
+      </tr>
+      <tr>
+        <th scope="row" class="euro">Euro/Dolar</th>
+        <td>1</td>
+        <td>1</td>
+        <td>1</td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <th scope="row" class="dolar">Dolar/Yen</th>
+        <td>1</td>
+        <td>1</td>
+        <td>1</td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <th scope="row" class="libra">Libra/Dolar</th>
+        <td>1</td>
+        <td>1</td>
+        <td>1</td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <th scope="row" class="yen">Euro/Yen</th>
+        <td>1</td>
+        <td>1</td>
+        <td>1</td>
+        <td>1</td>
+      </tr>
+    </table>
+  </body>
+</html>

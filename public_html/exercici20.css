@@ -1,0 +1,95 @@
+body {
+    font-family: "Verdana";
+    color: #192666;
+    background: url(imagenes/fondo.gif) repeat-x;
+    background-color: #F2F5FE;
+}
+#contenedor {
+    /*position: relative;*/
+    width: 770px;
+    margin: 0 auto;
+}
+.clear {
+    clear: both;
+}
+#cabecera, #principal, #pie {
+    width: 530px;
+}
+#secundario {
+    width: 200px;
+}
+#cabecera {
+    height: 100px;
+    background: url(imagenes/cabecera.jpg);
+}
+div#menu ul {
+    list-style-type: none;
+    display: inline;
+    float: left;
+    margin: 0;
+    padding: 0;background: url(imagenes/fondo_menu.gif);
+}
+div#menu ul li {
+    background-color: #253575;
+    display: inline;
+}
+div#menu ul li a {
+    color: #B5C4E3;
+}
+div#menu ul li:hover a{
+    color:  #31479B;
+}
+div#menu ul li.seleccionado {
+    background-color: white;
+}
+div#menu ul li.seleccionado a {
+    color: #FF9000;
+}
+.fecha {
+    background: url(imagenes/icono_fecha.gif) no-repeat left;
+}
+.categoria {
+    background: url(imagenes/icono_categoria.gif) no-repeat left;
+}
+.autor {
+    background: url(imagenes/icono_autor.gif) no-repeat left;
+}
+.comentarios {
+    background: url(imagenes/icono_comentarios.gif) no-repeat left;
+}
+.fecha, .categoria, .autor, .comentarios {
+    font-size: .6em;
+    padding: 1.4em;
+}
+.articulo {
+    background: url(imagenes/fondo_articulo.jpg);
+}
+.info {
+    padding-bottom: 0.4em;
+    border-bottom: 1px solid gray;
+}
+h2 {
+    background-color: lightsteelblue;
+    position: relative;
+    top: .6em;
+}
+.btn-more a{
+    font-size: 0.8em;
+    color: #B5C4E3;
+}
+div#secundario {
+    background: url(imagenes/fondo_columna.gif) no-repeat;
+}
+div#secundario h3 {
+    background-color: lightsteelblue;
+}
+div#secundario ul#categorias {
+    list-style-image: url(imagenes/icono_elemento.gif);
+}
+div#secundario ul#categorias li {
+    border-bottom: 1px solid white;
+}
+div#secundario ul#categorias li.seleccionado {
+    list-style-image: url(imagenes/icono_elemento_seleccionado.gif);
+    background-color: lightgray; 
+}

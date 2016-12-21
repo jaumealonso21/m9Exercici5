@@ -1,0 +1,14 @@
+
+ul.menu {
+    width: 200px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+ul.menu li a {
+    padding: 1.5em 0 0.2em 0.5em;
+    display: block;
+}
+ul.menu li a:link { color: #CC0000; }
+ul.menu li a:visited { color: #CCC; }
+ul.menu li a:hover { color: #FFF; background-color: #CC0000; }

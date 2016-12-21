@@ -1,0 +1,49 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: teal;
+}
+div#container {
+    text-align:center;
+}
+div#css {
+    font-size: 30em;
+    font-family: verdana;
+    font-weight: bold;
+    color: gray;
+    position: relative;
+    display: inline-block;
+    left: 50%;
+    /*top: 50%;
+    transform: translate(-50%, -50%); -- Centrar verticalment*/
+    transform: translate(-50%, 0);
+    -webkit-transform: translate(-50%, 0);
+    /*left: 10%;
+    right: 10%;*/
+    margin: 0;
+    padding: 0;
+}
+div#libertad {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    background-color: black;
+    color: white;
+    font-size: large;
+    display: inline-block;
+}
+div#insertar {
+    position: relative;
+    color: white;
+    display: inline-block;
+    left: -25em;
+    top: 6em;
+}
+div#imagen {
+    position: relative;
+    display: inline-block;
+    left: -35em;
+    top: -10em;
+
+}
+

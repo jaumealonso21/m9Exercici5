@@ -1,0 +1,11 @@
+
+H1 { font: bold 48pt verdana,sans-serif; color:green; }
+.comedia { font: bold 20pt "comic sans ms", arial, sans-serif; color:red; }
+.drama { font: bold 20pt "lynda cursive", script, brush,cursive; color:maroon; }
+.ficcio { font: 20pt bimini, digital, sans-serif; color:blue; }
+.noficcio { font: 20pt courier,monospace; color:black }
+.terror { font: italic 19pt "Arial"; color: yellow; }
+a { font:bold 8pt verdana, sans-serif; text-decoration:none; color:navy; }
+a:visited { text-decoration:none; color:navy; }
+a:hover { text-decoration: overline underline; }
+
